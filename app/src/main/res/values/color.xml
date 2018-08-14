@@ -21,4 +21,5 @@
     <color name="whitebackground"  >#d4d3d3</color>
     <color name="black" >#FF040303</color>
     <color name="newblue">#314755</color>
+    <color name="bluenew">#7FAFC1</color>
 </resources>

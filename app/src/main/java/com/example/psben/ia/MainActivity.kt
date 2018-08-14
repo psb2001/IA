@@ -164,6 +164,7 @@ class MainActivity : AppCompatActivity() {
         Auth.GoogleSignInApi.signOut(mGoogleApiClient)
         var intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

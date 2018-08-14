@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".viewImageActivity">
+    tools:context=".viewImageActivity"
+    android:background="@color/newblue">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +33,7 @@
                 android:layout_marginEnd="272dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="232dp"
-                android:background="@color/green"
+                android:background="@drawable/accept_background_layout"
                 android:onClick="buAccept"
                 android:text="Accept"
                 android:textAllCaps="false"
@@ -50,7 +51,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="232dp"
-                android:background="@color/red"
+                android:background="@drawable/reject_background_layout"
                 android:onClick="buReject"
                 android:text="Reject"
                 android:textAllCaps="false"
@@ -70,7 +71,10 @@
                 android:layout_marginTop="40dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="userName"
-                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/com_facebook_button_background_color_focused"
+                android:textSize="24sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
